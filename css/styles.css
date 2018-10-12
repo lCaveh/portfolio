@@ -30,13 +30,13 @@ h3 {
   padding: 60px 50px;
   overflow: auto;
 }
-/* Header
+/* Header and footer
 -----------------------------*/
 header {
   padding-top: 50px;
   position: relative;
 }
-header {
+header, footer {
   background: #0D0221;
   color: #A6CFD5;
   font-family: serif;
@@ -44,14 +44,18 @@ header {
 header {
   text-align: center;
 }
-.profile-img {
+.profileimg {
   border-radius: 20%;
   max-width: 300px;
 }
 header h1, header h2 {
   margin: 0;
 }
-
+footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
 /* Navigation
 -----------------------------*/
 nav {
