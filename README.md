@@ -21,12 +21,13 @@ _Contact Kaveh Saleminejad - lcaveh@gmail.com._
 
 ## GitHub page's links
 
-github.com/lcaveh/portfolio.git
+https://lcaveh.github.io/portfolio/index.html
 
 ## Technologies Used
 
 * _HTML_
 * _CSS_
+* _Bootstrap_
 
 ### License
 
