@@ -1,3 +1,4 @@
+
 a {
   color: #C2E7D9;
   font-size: 2vw;
@@ -46,12 +47,10 @@ header {
   padding-top: 50px;
   position: relative;
 }
-header, footer {
+header {
   background: #0D0221;
   color: #A6CFD5;
   font-family: serif;
-}
-header {
   text-align: center;
 }
 .profileimg {
@@ -61,10 +60,22 @@ header {
 header h1, header h2 {
   margin: 0;
 }
+/* Footer
+-----------------------------*/
 footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.contactinfo {
   text-align: center;
+}
+.contact {
+  background-image: url("../img/about.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size : contain;
+  background-attachment: fixed;
+  color: black;
 }
 /* Navigation
 -----------------------------*/
@@ -89,7 +100,9 @@ nav a {
 -----------------------------*/
 .work {
   background-image: url("../img/work.jpg");
-  background-size : cover;
+  background-size : contain;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   color: black;
 }
@@ -98,7 +111,9 @@ nav a {
 -----------------------------*/
 .education {
   background-image: url("../img/education.jpg");
-  background-size : cover;
+  background-size : contain;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   color: black;
 }
@@ -106,7 +121,9 @@ nav a {
 -----------------------------*/
 .project {
   background-image: url("../img/project.jpg");
-  background-size : cover;
+  background-size : contain;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   color: black;
 }
