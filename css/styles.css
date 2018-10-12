@@ -30,6 +30,9 @@ h3 {
   padding: 60px 50px;
   overflow: auto;
 }
+h3 ~ p{
+  margin: 0;
+}
 /* Header and footer
 -----------------------------*/
 header {
@@ -82,13 +85,19 @@ nav a {
   background-attachment: fixed;
   color: black;
 }
-h3 ~ p{
-  margin: 0;
-}
+
 /* Education
 -----------------------------*/
 .education {
   background-image: url("../img/education.jpg");
+  background-size : cover;
+  background-attachment: fixed;
+  color: black;
+}
+/* Project
+-----------------------------*/
+.project {
+  background-image: url("../img/project.jpg");
   background-size : cover;
   background-attachment: fixed;
   color: black;
